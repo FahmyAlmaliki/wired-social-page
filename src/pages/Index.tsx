@@ -90,7 +90,7 @@ const Index = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Fahmy Almaliki Dwi Aditya
+            My Name is Fahmy Almaliki Dwi Aditya
           </h2>
           <p className="text-xl text-gray-300 mb-4">⚡ Engineering Enthusiast ⚡</p>
           <p className="text-gray-400 leading-relaxed">
