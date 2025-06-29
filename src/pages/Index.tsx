@@ -28,7 +28,7 @@ const Index = () => {
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:fahmy87arm@gmail.com',
       color: 'hover:text-yellow-400',
       glow: 'hover:shadow-yellow-400/50'
     }
