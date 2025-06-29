@@ -56,7 +56,7 @@ const Index = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Zap className="w-8 h-8 text-yellow-400 animate-pulse" />
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-blue-400 bg-clip-text text-transparent animate-pulse">
-              FAHMY ALMALIKI DWI ADITYA
+              !WELCOME!
             </h1>
             <Zap className="w-8 h-8 text-blue-400 animate-pulse delay-300" />
           </div>
@@ -130,7 +130,7 @@ const Index = () => {
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 text-gray-400 text-sm">
             <Zap className="w-4 h-4 text-yellow-400 animate-pulse" />
-            <span>Powered by Excellence</span>
+            <span>Thans for Visiting</span>
             <Zap className="w-4 h-4 text-blue-400 animate-pulse delay-300" />
           </div>
         </div>
