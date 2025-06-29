@@ -14,14 +14,14 @@ const Index = () => {
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/fahmy-dev',
+      url: 'https://github.com/FahmyAlmaliki',
       color: 'hover:text-purple-400',
       glow: 'hover:shadow-purple-400/50'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/your-username',
+      url: 'https://www.linkedin.com/in/fahmy-almaliki-951b732a5/',
       color: 'hover:text-blue-400',
       glow: 'hover:shadow-blue-400/50'
     },
@@ -69,7 +69,7 @@ const Index = () => {
           <div className="w-32 h-32 mx-auto mb-6 relative">
             <div className="w-full h-full bg-gradient-to-br from-yellow-400 to-blue-400 rounded-full p-1 shadow-2xl shadow-yellow-400/30">
               <img 
-                src="https://raw.githubusercontent.com/fahmy-dev/fahmy-dev/main/FAHMY.png" 
+                src="https://raw.githubusercontent.com/FahmyAlmaliki/FahmyAlmaliki/main/FAHMY.png" 
                 alt="Fahmy Almaliki Dwi Aditya"
                 className="w-full h-full rounded-full object-cover bg-gray-800"
                 onError={(e) => {
