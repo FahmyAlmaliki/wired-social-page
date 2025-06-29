@@ -55,8 +55,8 @@ const Index = () => {
         <div className="text-center mb-12 relative">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Zap className="w-8 h-8 text-yellow-400 animate-pulse" />
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-blue-400 bg-clip-text text-transparent animate-pulse">
-              ELECTRICIAN
+            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-300 to-blue-400 bg-clip-text text-transparent animate-pulse">
+              FAHMY ALMALIKI DWI ADITYA
             </h1>
             <Zap className="w-8 h-8 text-blue-400 animate-pulse delay-300" />
           </div>
@@ -65,10 +65,19 @@ const Index = () => {
 
         {/* Profile Section */}
         <div className="text-center mb-16 max-w-2xl">
-          {/* Profile Picture Placeholder */}
+          {/* Profile Picture from GitHub */}
           <div className="w-32 h-32 mx-auto mb-6 relative">
             <div className="w-full h-full bg-gradient-to-br from-yellow-400 to-blue-400 rounded-full p-1 shadow-2xl shadow-yellow-400/30">
-              <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
+              <img 
+                src="https://github.com/your-username.png" 
+                alt="Fahmy Almaliki Dwi Aditya"
+                className="w-full h-full rounded-full object-cover bg-gray-800"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  e.currentTarget.nextElementSibling.style.display = 'flex';
+                }}
+              />
+              <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center" style={{display: 'none'}}>
                 <Zap className="w-16 h-16 text-yellow-400" />
               </div>
             </div>
@@ -77,12 +86,11 @@ const Index = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Your Name
+            Fahmy Almaliki Dwi Aditya
           </h2>
-          <p className="text-xl text-gray-300 mb-2">⚡ Professional Electrician ⚡</p>
+          <p className="text-xl text-gray-300 mb-4">⚡ Engineering Enthusiast ⚡</p>
           <p className="text-gray-400 leading-relaxed">
-            Bringing power to your world with precision, safety, and expertise. 
-            Specialized in residential, commercial, and industrial electrical solutions.
+            I'm an engineering enthusiast who loves working with embedded systems, IoT, and machine learning.
           </p>
         </div>
 
