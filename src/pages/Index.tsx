@@ -7,14 +7,14 @@ const Index = () => {
     {
       name: 'Instagram',
       icon: Instagram,
-      url: 'https://instagram.com/your-username',
+      url: 'https://instagram.com/nickname_AI',
       color: 'hover:text-pink-400',
       glow: 'hover:shadow-pink-400/50'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/your-username',
+      url: 'https://github.com/fahmy-dev',
       color: 'hover:text-purple-400',
       glow: 'hover:shadow-purple-400/50'
     },
@@ -65,16 +65,20 @@ const Index = () => {
 
         {/* Profile Section */}
         <div className="text-center mb-16 max-w-2xl">
-          {/* Profile Picture from GitHub */}
+          {/* Profile Picture from Repository */}
           <div className="w-32 h-32 mx-auto mb-6 relative">
             <div className="w-full h-full bg-gradient-to-br from-yellow-400 to-blue-400 rounded-full p-1 shadow-2xl shadow-yellow-400/30">
               <img 
-                src="https://github.com/your-username.png" 
+                src="https://raw.githubusercontent.com/fahmy-dev/fahmy-dev/main/FAHMY.png" 
                 alt="Fahmy Almaliki Dwi Aditya"
                 className="w-full h-full rounded-full object-cover bg-gray-800"
                 onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  e.currentTarget.nextElementSibling.style.display = 'flex';
+                  const target = e.currentTarget as HTMLImageElement;
+                  target.style.display = 'none';
+                  const fallback = target.nextElementSibling as HTMLElement;
+                  if (fallback) {
+                    fallback.style.display = 'flex';
+                  }
                 }}
               />
               <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center" style={{display: 'none'}}>
