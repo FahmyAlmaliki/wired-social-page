@@ -90,8 +90,9 @@ const Index = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            My Name is Fahmy Almaliki Dwi Aditya
+              I'm <span className="bg-gradient-to-r from-yellow-400 to-gray-400 bg-clip-text text-transparent">Fahmy</span> Almaliki Dwi Aditya
           </h2>
+
           <p className="text-xl text-gray-300 mb-4">⚡ Engineering Enthusiast ⚡</p>
           <p className="text-gray-400 leading-relaxed">
             I'm an engineering enthusiast who loves working with embedded systems, IoT, and machine learning.
